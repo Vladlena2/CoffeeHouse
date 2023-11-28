@@ -1,0 +1,110 @@
+D:\Users\Настя\Учёба\Программирование и алгоритмы\Soft_Coffee\bin\Debug\net6.0-windows\Soft_Coffee.exe
+D:\Users\Настя\Учёба\Программирование и алгоритмы\Soft_Coffee\bin\Debug\net6.0-windows\Soft_Coffee.deps.json
+D:\Users\Настя\Учёба\Программирование и алгоритмы\Soft_Coffee\bin\Debug\net6.0-windows\Soft_Coffee.runtimeconfig.json
+D:\Users\Настя\Учёба\Программирование и алгоритмы\Soft_Coffee\bin\Debug\net6.0-windows\Soft_Coffee.dll
+D:\Users\Настя\Учёба\Программирование и алгоритмы\Soft_Coffee\bin\Debug\net6.0-windows\Soft_Coffee.pdb
+D:\Users\Настя\Учёба\Программирование и алгоритмы\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.csproj.AssemblyReference.cache
+D:\Users\Настя\Учёба\Программирование и алгоритмы\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.Form1.resources
+D:\Users\Настя\Учёба\Программирование и алгоритмы\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.Properties.Resources.resources
+D:\Users\Настя\Учёба\Программирование и алгоритмы\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.csproj.GenerateResource.cache
+D:\Users\Настя\Учёба\Программирование и алгоритмы\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Настя\Учёба\Программирование и алгоритмы\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.AssemblyInfoInputs.cache
+D:\Users\Настя\Учёба\Программирование и алгоритмы\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.AssemblyInfo.cs
+D:\Users\Настя\Учёба\Программирование и алгоритмы\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.csproj.CoreCompileInputs.cache
+D:\Users\Настя\Учёба\Программирование и алгоритмы\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.dll
+D:\Users\Настя\Учёба\Программирование и алгоритмы\Soft_Coffee\obj\Debug\net6.0-windows\refint\Soft_Coffee.dll
+D:\Users\Настя\Учёба\Программирование и алгоритмы\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.pdb
+D:\Users\Настя\Учёба\Программирование и алгоритмы\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.genruntimeconfig.cache
+D:\Users\Настя\Учёба\Программирование и алгоритмы\Soft_Coffee\obj\Debug\net6.0-windows\ref\Soft_Coffee.dll
+D:\Users\Настя\Учёба\Программирование и алгоритмы\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.Form2.resources
+D:\Users\Настя\Учёба\Программирование и алгоритмы\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.Form3.resources
+D:\Users\Настя\Учёба\Программирование и алгоритмы\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.Form4.resources
+D:\Users\Настя\Учёба\Программирование и алгоритмы\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.Form5.resources
+D:\Users\Настя\Учёба\Программирование и алгоритмы\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.Form6.resources
+D:\Users\Настя\Учёба\Программирование и алгоритмы\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.Form7.resources
+D:\Users\Настя\Учёба\Программирование и алгоритмы\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.Form8.resources
+D:\Users\Настя\Учёба\Программирование и алгоритмы\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.Form9.resources
+D:\Users\Настя\Учёба\Программирование и алгоритмы\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.Form10.resources
+C:\Users\User\Desktop\Soft_Coffee\bin\Debug\net6.0-windows\Soft_Coffee.exe
+C:\Users\User\Desktop\Soft_Coffee\bin\Debug\net6.0-windows\Soft_Coffee.deps.json
+C:\Users\User\Desktop\Soft_Coffee\bin\Debug\net6.0-windows\Soft_Coffee.runtimeconfig.json
+C:\Users\User\Desktop\Soft_Coffee\bin\Debug\net6.0-windows\Soft_Coffee.dll
+C:\Users\User\Desktop\Soft_Coffee\bin\Debug\net6.0-windows\Soft_Coffee.pdb
+C:\Users\User\Desktop\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.Form1.resources
+C:\Users\User\Desktop\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.Form10.resources
+C:\Users\User\Desktop\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.Form2.resources
+C:\Users\User\Desktop\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.Form3.resources
+C:\Users\User\Desktop\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.Form4.resources
+C:\Users\User\Desktop\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.Form5.resources
+C:\Users\User\Desktop\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.Form9.resources
+C:\Users\User\Desktop\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.Properties.Resources.resources
+C:\Users\User\Desktop\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.AssemblyInfo.cs
+C:\Users\User\Desktop\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.dll
+C:\Users\User\Desktop\Soft_Coffee\obj\Debug\net6.0-windows\refint\Soft_Coffee.dll
+C:\Users\User\Desktop\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.pdb
+C:\Users\User\Desktop\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.genruntimeconfig.cache
+C:\Users\User\Desktop\Soft_Coffee\obj\Debug\net6.0-windows\ref\Soft_Coffee.dll
+C:\Users\User\Desktop\хуета\Soft_Coffee\bin\Debug\net6.0-windows\Soft_Coffee.exe
+C:\Users\User\Desktop\хуета\Soft_Coffee\bin\Debug\net6.0-windows\Soft_Coffee.deps.json
+C:\Users\User\Desktop\хуета\Soft_Coffee\bin\Debug\net6.0-windows\Soft_Coffee.runtimeconfig.json
+C:\Users\User\Desktop\хуета\Soft_Coffee\bin\Debug\net6.0-windows\Soft_Coffee.dll
+C:\Users\User\Desktop\хуета\Soft_Coffee\bin\Debug\net6.0-windows\Soft_Coffee.pdb
+C:\Users\User\Desktop\хуета\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\хуета\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.Form1.resources
+C:\Users\User\Desktop\хуета\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.Form10.resources
+C:\Users\User\Desktop\хуета\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.Form2.resources
+C:\Users\User\Desktop\хуета\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.Form3.resources
+C:\Users\User\Desktop\хуета\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.Form4.resources
+C:\Users\User\Desktop\хуета\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.Form5.resources
+C:\Users\User\Desktop\хуета\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.Form6.resources
+C:\Users\User\Desktop\хуета\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.Form7.resources
+C:\Users\User\Desktop\хуета\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.Form8.resources
+C:\Users\User\Desktop\хуета\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.Form9.resources
+C:\Users\User\Desktop\хуета\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.Properties.Resources.resources
+C:\Users\User\Desktop\хуета\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.csproj.GenerateResource.cache
+C:\Users\User\Desktop\хуета\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\хуета\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\хуета\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.AssemblyInfo.cs
+C:\Users\User\Desktop\хуета\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\хуета\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.dll
+C:\Users\User\Desktop\хуета\Soft_Coffee\obj\Debug\net6.0-windows\refint\Soft_Coffee.dll
+C:\Users\User\Desktop\хуета\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.pdb
+C:\Users\User\Desktop\хуета\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.genruntimeconfig.cache
+C:\Users\User\Desktop\хуета\Soft_Coffee\obj\Debug\net6.0-windows\ref\Soft_Coffee.dll
+C:\Users\alena\OneDrive\Рабочий стол\Soft_Coffee\bin\Debug\net6.0-windows\Soft_Coffee.exe
+C:\Users\alena\OneDrive\Рабочий стол\Soft_Coffee\bin\Debug\net6.0-windows\Soft_Coffee.deps.json
+C:\Users\alena\OneDrive\Рабочий стол\Soft_Coffee\bin\Debug\net6.0-windows\Soft_Coffee.runtimeconfig.json
+C:\Users\alena\OneDrive\Рабочий стол\Soft_Coffee\bin\Debug\net6.0-windows\Soft_Coffee.dll
+C:\Users\alena\OneDrive\Рабочий стол\Soft_Coffee\bin\Debug\net6.0-windows\Soft_Coffee.pdb
+C:\Users\alena\OneDrive\Рабочий стол\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.Form1.resources
+C:\Users\alena\OneDrive\Рабочий стол\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.Form10.resources
+C:\Users\alena\OneDrive\Рабочий стол\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.Form2.resources
+C:\Users\alena\OneDrive\Рабочий стол\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.Form3.resources
+C:\Users\alena\OneDrive\Рабочий стол\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.Form5.resources
+C:\Users\alena\OneDrive\Рабочий стол\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.Form6.resources
+C:\Users\alena\OneDrive\Рабочий стол\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.Form7.resources
+C:\Users\alena\OneDrive\Рабочий стол\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.Form8.resources
+C:\Users\alena\OneDrive\Рабочий стол\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.Form9.resources
+C:\Users\alena\OneDrive\Рабочий стол\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.Properties.Resources.resources
+C:\Users\alena\OneDrive\Рабочий стол\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.csproj.GenerateResource.cache
+C:\Users\alena\OneDrive\Рабочий стол\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alena\OneDrive\Рабочий стол\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.AssemblyInfoInputs.cache
+C:\Users\alena\OneDrive\Рабочий стол\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.AssemblyInfo.cs
+C:\Users\alena\OneDrive\Рабочий стол\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.csproj.CoreCompileInputs.cache
+C:\Users\alena\OneDrive\Рабочий стол\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.dll
+C:\Users\alena\OneDrive\Рабочий стол\Soft_Coffee\obj\Debug\net6.0-windows\refint\Soft_Coffee.dll
+C:\Users\alena\OneDrive\Рабочий стол\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.pdb
+C:\Users\alena\OneDrive\Рабочий стол\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.genruntimeconfig.cache
+C:\Users\alena\OneDrive\Рабочий стол\Soft_Coffee\obj\Debug\net6.0-windows\ref\Soft_Coffee.dll
+C:\Users\alena\OneDrive\Рабочий стол\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.Form11.resources
+C:\Users\alena\OneDrive\Рабочий стол\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.Form12.resources
+C:\Users\alena\OneDrive\Рабочий стол\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.Form4.resources
+C:\Users\User\Desktop\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.Form11.resources
+C:\Users\User\Desktop\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.Form12.resources
+C:\Users\User\Desktop\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.Form13.resources
+C:\Users\User\Desktop\Soft_Coffee\obj\Debug\net6.0-windows\Soft_Coffee.Form14.resources
