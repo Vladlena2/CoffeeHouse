@@ -21,7 +21,7 @@ public class DatabaseHelper
     {
         //Если связь закрыта 
         if (conn.State == System.Data.ConnectionState.Open) { }
-        conn.Open();
+        conn.Close();
     }
 
     // Метод для выполнения SQL-запроса и обработки результатов
