@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,96 +8,143 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using Npgsql;
 
 namespace Soft_Coffee
 {
     public partial class Form10 : Form
     {
+        // Создание экземпляра класса для работы с базой данных
+        DatabaseHelper databaseHelper = new DatabaseHelper();
+
+        // Инициализация формы
         public Form10()
         {
             InitializeComponent();
-
         }
 
+        // Обработчик события загрузки формы
         private void Form10_Load(object sender, EventArgs e)
         {
-            label6.Visible = false;
+            // Установка режима выделения строк в DataGridView
             dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dataGridView2.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dataGridView1.RowCount = 10;
-            dataGridView1.ColumnCount = 4;
-            for (int i = 0; i < dataGridView1.RowCount; i++)
-                for (int d = 0; d < dataGridView1.ColumnCount; d++)
-                    dataGridView1.Rows[i].Cells[d].Value = nums1[i, d];
 
-            string[,] combo = { { "0,3л" }, { "0,5" } };
+            CreateColumnsDataGridView1();
+            CreateColumnsDataGridView2();
+            RefreshDataGrid(dataGridView1);
         }
-        string[,] nums1 = { { "1", "Латте", "", "60" }, { "2", "Капучино", "", "60" }, { "3", "Эспрессо", "", "60р" }, { "4", "Раф-кофе", "", "60р" }, { "5", "Флэт уайт", "", "60р" }, { "6", "Американо", "", "60р" }, { "7", "Бамбл", "", "60р" }, { "8", "Макиато", "", "60р" }, { "9", "Глясе", "", "60р" }, { "10", "Моккачино", "", "60р" } };
 
+        private void CreateColumnsDataGridView1()
+        {
+            dataGridView1.Columns.Add("Name", "Название");
+            dataGridView1.Columns.Add("Volume", "Объем");
+            dataGridView1.Columns.Add("Price", "Цена");
+        }
+
+        private void CreateColumnsDataGridView2()
+        {
+            dataGridView2.Columns.Add("Name", "Название");
+            dataGridView2.Columns.Add("Volume", "Объем");
+            dataGridView2.Columns.Add("Price", "Цена");
+        }
+
+        private void readSingleRow(DataGridView dgr, IDataRecord record)
+        {
+            dgr.Rows.Add(record.GetString(0), record.GetString(1), record.GetInt32(2));
+        }
+
+        private void RefreshDataGrid(DataGridView dgr)
+        {
+            dgr.Rows.Clear();
+
+            string queryString = "SELECT d.title, rd.razmer, d.price + rd.price AS total_price" +
+                                  " FROM drinks d CROSS JOIN razmer_drink rd;";
+
+            NpgsqlCommand command = new NpgsqlCommand(queryString, databaseHelper.getConnection());
+
+            databaseHelper.openConnection();
+
+            NpgsqlDataReader reader = command.ExecuteReader();
+
+            while (reader.Read())
+            {
+                readSingleRow(dgr, reader);
+            }
+
+            reader.Close();
+
+        }
+
+        // Обработчик кнопки "Добавить"
         private void button1_Click(object sender, EventArgs e)
         {
-            foreach (DataGridViewRow row in dataGridView1.SelectedRows)
-            {
-                object[] items = new object[row.Cells.Count];
-                for (int i = 0; i < row.Cells.Count; i++)
-                {
-                    items[i] = row.Cells[i].Value;
-                }
-                dataGridView2.Rows.Add(items);
 
+            if (dataGridView1.SelectedRows.Count > 0)
+            {
+                // Получаем индекс выделенной строки
+                int selectedIndex = dataGridView1.SelectedRows[0].Index;
+
+                // Проверяем, что индекс строки действителен
+                if (selectedIndex >= 0 && selectedIndex < dataGridView1.Rows.Count)
+                {
+                    // Создаем новую строку для второго DataGridView
+                    DataGridViewRow newRow = new DataGridViewRow();
+
+                    // Копируем значения ячеек из выделенной строки
+                    foreach (DataGridViewCell cell in dataGridView1.Rows[selectedIndex].Cells)
+                    {
+                        // Явное приведение типа для добавления в коллекцию новой строки
+                        newRow.Cells.Add(new DataGridViewTextBoxCell { Value = cell.Value });
+                    }
+
+                    // Добавляем новую строку во второй DataGridView
+                    dataGridView2.Rows.Add(newRow);
+                }
             }
 
             label4.Visible = true;
+            // Инициализируем переменную для хранения суммы цен
+            decimal total = 0;
 
+            // Проходим по всем строкам DataGridView
+            foreach (DataGridViewRow row in dataGridView2.Rows)
             {
+                // Получаем значение ячейки в столбце "Цена" (замените "Price" на реальное имя столбца)
+                if (row.Cells["Price"].Value != null && decimal.TryParse(row.Cells["Price"].Value.ToString(), out decimal price))
                 {
-                    double sum = 0;
-                    for (int i = 0; i < dataGridView2.RowCount - 0; i++)
-                    {
-                        if (dataGridView2.Rows[i].Visible)
-                            sum += Convert.ToDouble(dataGridView2[3, i].Value);
-                    }
-                    label4.Text = sum.ToString();
-
-                    Data1.Txt = label4.Text;
-
+                    // Суммируем значение цены
+                    total += price;
                 }
-
-
             }
 
+            // Выводим сумму в Label (замените labelTotal на имя вашего Label)
+            label4.Text = $"{total:C}";
+        }
+
+        // Обработчик кнопки "Скидочная карта"
+        private void button3_Click(object sender, EventArgs e)
+        {
+            // Создание новой формы для оплаты
+            Form14 newForm = new Form14();
+            newForm.Show();
+
+            // Скрытие и отображение необходимых элементов
+            label4.Visible = false;
+        }
+
+        // Обработчик кнопки "Оплата"
+        private void button2_Click(object sender, EventArgs e)
+        {
+            // Создание новой формы для оплаты
+            Form11 newForm = new Form11();
+            newForm.Show();
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Form11 newForm = new Form11();
-            newForm.Show();
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-
-            Form14 newForm = new Form14();
-            newForm.Show();
-            label4.Visible = false;
-            label6.Visible = true;
-            double summ = double.Parse(label4.Text);
-            double skidka = 0;
-            if (summ > 0) skidka = 0.2;
-            double itog = (summ - (skidka * summ));
-            label6.Text = itog.ToString();
-
-
-        }
     }
+
 }
